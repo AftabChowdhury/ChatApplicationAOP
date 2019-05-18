@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<featureModel>
+    <properties/>
+    <struct>
+        <and abstract="true" mandatory="true" name="ChatAppAspectJ">
+            <feature mandatory="true" name="Base"/>
+            <alt mandatory="true" name="EncryptionMethod">
+                <feature name="Rot13"/>
+                <feature name="Exchange2Letter"/>
+            </alt>
+            <feature name="Sound"/>
+            <feature name="SpamFilter"/>
+        </and>
+    </struct>
+    <constraints/>
+    <calculations Auto="true" Constraints="true" Features="true" Redundant="true" Tautology="true"/>
+    <comments/>
+    <featureOrder userDefined="false"/>
+</featureModel>

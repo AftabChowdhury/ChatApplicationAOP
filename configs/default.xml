@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration>
+    <feature automatic="selected" name="ChatAppAspectJ"/>
+    <feature automatic="selected" name="Base"/>
+    <feature automatic="selected" name="EncryptionMethod"/>
+    <feature manual="selected" name="Rot13"/>
+    <feature automatic="unselected" name="Exchange2Letter"/>
+</configuration>
